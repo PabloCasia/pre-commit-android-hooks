@@ -1,0 +1,7 @@
+- id: ktlint
+  name: ktlint
+  description: Run ktlint format
+  entry: ./gradlew ktlintFormat
+  pass_filenames: false
+  language: system
+  
